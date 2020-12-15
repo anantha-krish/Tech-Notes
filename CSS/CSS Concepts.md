@@ -1,12 +1,8 @@
----
-title: "CSS Notes"
-tags: ""
----
+CSS Concepts
 
 css for sliding background fill buttons/links
 
 SCSS 
-
 ```scss
  &__link{
         &:link,&:visited
@@ -31,9 +27,7 @@ SCSS
         }
     }
 ```
-
 HTML code
-
 ```html
  <ul class="navigation__list">
           <li class="navigation__item"><a href="#" class="navigation__link">About Natros</a></li>
@@ -58,8 +52,10 @@ HTML code
 <div class="navigation__background">&nbsp;</div>
 ```
 
-## Tranformation Origin
+##  Tranformation Origin
 
 Normally while doing any kind of transformation, we don't specify any origin, hence by default it is applied to center;
 
 hence we can choose tranformation-origin:left or right, to specify the position to perform transform.
+
+
